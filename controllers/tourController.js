@@ -93,3 +93,5 @@ exports.getMonthlyPlan = catchAsync(async (req, res) => {
     }
   });
 });
+
+exports.getToursWithin = (req, res, next) => {};
