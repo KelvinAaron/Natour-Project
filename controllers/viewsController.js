@@ -1,8 +1,5 @@
-const dotenv = require('dotenv');
 const catchAsync = require('../utils/catchAsync');
 const Tour = require('./../models/tourModel');
-
-dotenv.config({ path: './config.env' });
 
 exports.getOverview = catchAsync(async (req, res, next) => {
   // Get tour data

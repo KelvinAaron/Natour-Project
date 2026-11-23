@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 const locations = JSON.parse(document.getElementById('map').dataset.locations);
-const mapboxToken = mapEl.dataset.token;
+const mapboxToken = document.getElementById('map').dataset.token;
 
 // creates the map, passing your access token to associate it with your Mapbox account, and setting the container, initial center, and zoom level
 const map = new mapboxgl.Map({
